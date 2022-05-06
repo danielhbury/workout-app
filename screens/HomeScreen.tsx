@@ -3,6 +3,7 @@ import { NativeStackHeaderProps } from '@react-navigation/native-stack';
 import data from '../data.json';
 import { Workout } from '../types/data';
 import WorkoutItem from '../components/WorkoutItem';
+import { AksharText } from '../components/styled/AksharText';
 
 const styles = StyleSheet.create({
   container: {
